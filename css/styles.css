@@ -1,0 +1,149 @@
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.ownership{
+  font-weight: 800;
+}
+
+h1{
+  color: #efe9cc;
+  font-size: 5.625rem;
+  margin: 0px auto 0 auto;
+  font-family: 'Mansalva', cursive;
+}
+h2{
+  color: #347474;
+  font-family: 'Turret Road', cursive;
+  font-size: 2.5rem;
+  margin: 0px auto 0 auto;
+  font-weight: 400;
+}
+h3{
+  color: #347474;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+}
+p{
+  font-size: 1.5rem;
+}
+.top-container{
+  position: relative;
+  background-color: #64e291;
+  height: 800px;
+  padding-top: 50px;
+}
+
+.text-box1{
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.top-cloud{
+
+  position:absolute;
+  right: 300px;
+  top-margin: 50px;
+}
+
+.bottom-cloud{
+
+  position: absolute;
+  left:300px;
+  top: 400px;
+
+}
+
+.mountain{
+  display:block;
+  margin: 100px auto 0 auto;
+}
+
+.middle-container{
+  display: block;
+
+}
+.hello-text{
+  width:30%;
+  margin:auto;
+  margin-top: 40px;
+}
+
+.bottom-container{
+  display: block;
+  background-color: #64e291;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.chillies{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.computer{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  margin-top: 50px;
+}
+
+.myButton {
+  margin-top: 50px;
+  background-color:#64e291;
+  border-radius:10px;
+  border:1px solid #64e291;
+  display:inline-block;
+  cursor:pointer;
+  color:#347474;
+  font-family:Arial;
+  font-size:19px;
+  padding:12px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #64e291;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+hr{
+  width: 5%;
+  border-width: 10px 0 0 0;
+  border-top-style: dotted;
+}
+.footer-link{
+  color:#347474;
+  font-family: 'Turret Road', cursive;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  }
+.copyright-text{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight:500;
+}
+.skills{
+  margin-top: 50px;
+}
+.profile{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.hello{
+  margin-top: 50px;
+}
+.profile-img{
+  width: 25%;
+}
