@@ -29,25 +29,30 @@ h3{
 p{
   font-size: 1.5rem;
 }
+hr{
+  width: 5%;
+  border-width: 10px 0 0 0;
+  border-top-style: dotted;
+}
+
+/*Top-Container frames*/
+
 .top-container{
   position: relative;
   background-color: #64e291;
   height: 800px;
   padding-top: 50px;
 }
-
 .text-box1{
   display: inline-block;
   margin-top: 100px;
 }
-
 .top-cloud{
 
   position:absolute;
   right: 300px;
   top-margin: 50px;
 }
-
 .bottom-cloud{
 
   position: absolute;
@@ -55,29 +60,33 @@ p{
   top: 400px;
 
 }
-
 .mountain{
   display:block;
   margin: 100px auto 0 auto;
 }
 
+/*Middle-container frames*/
+
 .middle-container{
   display: block;
-
+}
+.profile{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.profile-img{
+  width: 25%;
+}
+.hello{
+  margin-top: 50px;
 }
 .hello-text{
   width:30%;
   margin:auto;
   margin-top: 40px;
 }
-
-.bottom-container{
-  display: block;
-  background-color: #64e291;
+.skills{
   margin-top: 50px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  margin-bottom: 0;
 }
 .skill-row{
   width: 50%;
@@ -85,7 +94,7 @@ p{
   text-align: left;
   line-height: 2;
 }
-.chillies{
+.speech-bubble-globe{
   width: 25%;
   float: left;
   margin-right: 30px;
@@ -119,10 +128,15 @@ p{
   top:1px;
 }
 
-hr{
-  width: 5%;
-  border-width: 10px 0 0 0;
-  border-top-style: dotted;
+/*Bottom-container frames*/
+
+.bottom-container{
+  display: block;
+  background-color: #64e291;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
 }
 .footer-link{
   color:#347474;
@@ -133,17 +147,4 @@ hr{
 .copyright-text{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight:500;
-}
-.skills{
-  margin-top: 50px;
-}
-.profile{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.hello{
-  margin-top: 50px;
-}
-.profile-img{
-  width: 25%;
 }
